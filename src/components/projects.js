@@ -11,6 +11,7 @@ class Projects extends Component {
 
 		if(this.state.activeTab === 0){
 		return(
+
 <div className="projects-grid">
 	{/*Project 1*/}
 			<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -60,6 +61,7 @@ class Projects extends Component {
 				</CardMenu>
 			</Card>
 	</div>
+
 			)
 		}
 		else if(this.state.activeTab === 1){
@@ -96,7 +98,7 @@ class Projects extends Component {
                		<Tab>MongoDB</Tab>
                </Tabs> 
 
-               <section className="projects-grid">
+               
                <Grid >
                		<Cell col={12}>
                			<div className="content">
@@ -105,7 +107,6 @@ class Projects extends Component {
                		</Cell>
                </Grid>
                		
-               </section>
             </div>    
   		);
   }

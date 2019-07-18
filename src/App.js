@@ -3,12 +3,13 @@ import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
+import { NONAME } from 'dns';
 
 function App() {
   return (
    <div style={{height: '300px', position: 'relative'}}>
     <Layout fixedHeader>
-        <Header className="header-color"title={<span><strong>MY PORTFOLIO</strong></span>}>
+        <Header className="header-color"title={<Link to="/" className="title"><span><strong>MY PORTFOLIO</strong></span></Link>}>
             <Navigation>
                 <Link to="/resume">Resume</Link> 
                 <Link to="/aboutme">About Me</Link>
