@@ -22,17 +22,35 @@ class Contact extends Component {
 						  <h2>Contact Me</h2>
 						  <hr/>
 
-						  <List>
+						<div className="contact-list">
+						<List>
 								<ListItem>
-									<ListItemContent icon="person">Bryan Cranston</ListItemContent>
+									<ListItemContent style= {{fontSize: '25px', fontFamily: 'Anton'}}>
+										<i className="fa fa-phone-square" aria-hidden="true"/>
+										[254] 724127132
+									</ListItemContent>
 								</ListItem>
 								<ListItem>
-									<ListItemContent icon="person">Aaron Paul</ListItemContent>
+									<ListItemContent style= {{fontSize: '25px', fontFamily: 'Anton'}}>
+										<i className="fa fa-fax" aria-hidden="true"/>
+										[254] 724127132
+									</ListItemContent>
 								</ListItem>
 								<ListItem>
-									<ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+									<ListItemContent style= {{fontSize: '25px', fontFamily: 'Anton'}}>
+										<i className="fa fa-envelope" aria-hidden="true"/>
+										bundkevim@gmail.com
+									</ListItemContent>
+								</ListItem>
+								<ListItem>
+									<ListItemContent style= {{fontSize: '25px', fontFamily: 'Anton'}}>
+										<i className="fa fa-skype" aria-hidden="true"/>
+										myskypeid
+									</ListItemContent>
 								</ListItem>
 						  </List>
+						</div>
+						  
 					  </Cell>
 				  </Grid>
   			
