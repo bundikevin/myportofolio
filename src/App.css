@@ -127,3 +127,7 @@ position: fixed;
 .social-links i h6{
   text-decoration: none;
 }
+
+.resume-right-col{
+  background-color: blue;
+}

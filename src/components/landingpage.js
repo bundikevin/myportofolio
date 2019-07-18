@@ -9,7 +9,7 @@ class Landing extends Component {
   				<Cell col={12}>
   				
   					<img 
-  					src="https://images.vexels.com/media/users/3/145908/preview2/52eabf633ca6414e60a7677b0b917d92-male-avatar-maker.jpg" 
+  					src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png" 
   					alt="avatar" 
   					className="avatar-img"
   					/>
