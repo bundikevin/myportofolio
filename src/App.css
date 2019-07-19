@@ -129,5 +129,7 @@ position: fixed;
 }
 
 .resume-right-col{
-  background-color: blue;
+  background-color: #27221F;
+  color: white;
+  padding-top: 2em;
 }
