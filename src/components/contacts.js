@@ -9,7 +9,7 @@ class Contact extends Component {
 				  <Grid className="contact-grid">
 					  <Cell col={6}>
 					 	<h2>Makori Kevin</h2> 
-						 <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+						 <img src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
 						 alt="avatar"
 						 style={{height: '150px'}} 
 						 />
