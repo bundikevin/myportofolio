@@ -17,7 +17,7 @@ class Resume extends Component {
 					</div>
 					<div>
 					<h2 style={{paddingTop: '1em'}}>Bundi Kevin</h2>
-					<h4 style={{color: 'grey'}}>Programmer</h4>
+					<h4 style={{color: 'grey'}}>Front End Developer</h4>
 					<hr style={{borderTop: '3px solid #833fb2', width: '50%', textAlign: 'left'}}/>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
 						 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -38,10 +38,28 @@ class Resume extends Component {
 				  <Cell className="resume-right-col" col={8}>
 					  <h1>Education</h1>
 					  <Education
-					  startYear={2002}
-					  endYear={2006}
+					  startYear={2012}
+					  endYear={2016}
 					  schoolName="Karatina University"
 					  schoolDescription="Higher Learning Institution"
+					/>
+					<Education
+						startYear={2012}
+						endYear={2012}
+						schoolName="Elgonview College"
+						schoolDescription="College"
+					/>
+					<Education
+						startYear={2008}
+						endYear={2012}
+						schoolName="Nyambaria Boys High"
+						schoolDescription="High School"
+					/>
+					<Education
+						startYear={2000}
+						endYear={2007}
+						schoolName="Kebirigo Primary School"
+						schoolDescription="Primary School"
 					/>
 				  </Cell>
 			  </Grid>
